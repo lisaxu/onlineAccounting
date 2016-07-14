@@ -1,0 +1,97 @@
+body{
+	background-color: #D6D6D6;
+}
+
+.container{
+	width:80%;
+	background-color: white;
+	padding: 0px;
+}
+ 
+/*==============================header==============================*/
+header h1{
+	/*padding:20px 0px 5px 10px;*/
+	text-align:center;
+}
+header h3{
+	padding:0px 0px 5px 20px;
+	text-align:center;
+}
+
+.nav{
+	background-color: #98bf21;
+	width:100%;
+	padding: 0px;
+}
+
+header nav li a{
+	display:block;  /*Displaying the links as block elements makes the whole link area clickable*/ 
+	width: 150px;  /*width of block text-transform: uppercase;*/
+	font-weight:bold;
+	color: #fff;
+	background-color: #98bf21;
+	text-align:center;
+	padding: 5px;
+	
+}
+
+header nav ul{
+	list-style:none;
+	margin:0;
+	display: inline-block;
+}
+
+header li{
+	display:inline-block;
+	float:left; /*have to folat to get it horizontal???*/
+	margin:5px;
+}
+
+a:link{
+	color:#000000;
+	text-decoration: none;
+}
+
+a:hover{
+	background:#7a991a;
+	text-decoration: none;
+}
+
+/*==============================CONTENT==============================*/
+.content{
+	min-height: 800px;
+	padding: 30px 50px;
+}
+.dyanmicFloatLeft{
+	text-align:left;
+	padding-left: 0;
+}
+#username, #password, #answer{
+	/*width: 30%;*/
+}
+
+.formSelect{
+	max-width:100px;
+}
+
+.input-group[class*=col-]{
+	float:left;
+}
+#dynamic{
+	text-align:left;
+	padding-left: 0;
+}
+
+.alert{
+	width: 50%;
+}
+
+/*==============================footer==============================*/
+footer {
+	background-color: #98bf21;
+	color: white;
+}
+
+footer div{
+	padding: 10px 0px 5px 30px;
+}
